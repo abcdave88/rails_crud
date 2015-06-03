@@ -1,0 +1,13 @@
+<h2>Index</h2>
+ <div class="list-group"> 
+  <% @dwarfs.each do |dwarf| %>
+ <div class="list-group-item">
+  <ul class="dwarf">
+    <li><%= link_to(dwarf.name, dwarf_path(dwarf.id))   %></li>
+    <li><%= link_to('DELETE', dwarf_path(dwarf.id), method: :delete)%></li>
+    <li><%= link_to('EDIT', edit_dwarf_path(dwarf.id))%></li>
+    <li></li>
+  </ul>
+  </div>
+  <%end%> 
+  </div>

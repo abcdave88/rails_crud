@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FamousDwarfs</title>
+  <link href='http://fonts.googleapis.com/css?family=Allerta+Stencil' rel='stylesheet' type='text/css'>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class="inline"> 
+  <div class="header">
+    <h1>The Short-list</h1>
+  </div>
+    <div class="nav">
+      <ul>
+        <li><%= link_to('Dwarfs', dwarves_path, class: "menu") %></li>
+        <li><%= link_to('New Dwarf', new_dwarf_path, class: "menu")%></li>
+      </ul>
+    </div>
+</div>
+
+<div class="container">
+  <div class="content">
+  <%= yield %>
+  </div>
+</div>
+</body>
+</html>

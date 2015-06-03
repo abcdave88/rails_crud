@@ -1,0 +1,25 @@
+<h2>New Dwarf</h2> 
+
+<%= form_for @dwarf do |d| %>
+  <%= d.label :name %>
+  <%= d.text_field :name %>
+
+  <%=d.label :photo %>
+  <%=d.text_field :photo %>
+
+  <%=d.label :occupation %>
+  <%=d.text_field :occupation %>
+
+  <%=d.label :dob %>
+  <%=d.text_field :dob %>
+
+  <%=d.label :height %>
+  <%=d.text_field :height %>
+
+  <%=d.label :jen %>
+  <%=d.text_field :jen %>
+
+
+  <%=d.submit ' Create Dwarf!' %>
+<%end%>
+

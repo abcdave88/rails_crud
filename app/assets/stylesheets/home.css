@@ -1,0 +1,56 @@
+body{
+  background-color: #c3c1d7;  
+}
+
+.inline {
+  height: 10%;
+  width: 95%;
+  background-color: rgba(215, 40, 40, 0.9);
+  margin-left: auto;
+  margin-right: auto;
+  border-top-right-radius: 100px;
+  font-family: 'Allerta Stencil'; 
+  padding-left: 10px;
+  padding-bottom: 5px;
+  margin: 15px;
+}
+
+.header h1 {
+  display: inline-block;
+  color: white;
+  font-size: 25px;
+  margin-bottom: -10px;
+}
+
+.nav {
+  display: inline-block;
+  margin-left: 200px;
+  margin-top: -81px;
+
+}
+
+.nav .menu {
+  text-decoration: none;
+  color: white;
+}
+
+.content {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; 
+  width: 75%;
+  border: 8px solid rgba(215, 40, 40, 0.9);
+  border-radius: 5px;
+  padding: 40px;
+}
+
+
+.content h2{
+  font-family: 'Allerta Stencil'; 
+   margin-right: -32px;
+
+}
+
+.content li {
+  list-style-type: none;
+}
